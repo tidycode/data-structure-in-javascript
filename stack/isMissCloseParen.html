@@ -1,0 +1,9 @@
+<script src="../stack/js/stack.js"></script>
+<script src="../stack/js/isMissCloseParen.js"></script>
+<script>
+console.log(isMissCloseParen("7+1)"),"isMissCloseParen: (7+1");
+console.log(isMissCloseParen("(7+1)"),"isMissCloseParen: (7+1)");
+console.log(isMissCloseParen("1+(6-5)+1"),"isMissCloseParen: 1+(6-5)+1");
+console.log(isMissCloseParen("1+(6-5)*(7"),"isMissCloseParen: 1+(6-5)*(7");
+console.log(isMissCloseParen("1+(6-5)*(7+1)"),"isMissCloseParen: 1+(6-5)*(7+1)");
+</script>
